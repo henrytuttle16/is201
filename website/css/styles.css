@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(168, 126, 209);
+    color: white;
+    /*text color (CSS comment method)*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h5 {
+    display: inline;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(226, 156, 69);
+    opacity: 65%;
+    font-weight: 700;
+}
+
+a {
+    color: rgb(106, 238, 238);
+}
+
+a:visited {
+    color: beige;
+}
+
+img {
+    border: 2px solid limegreen;
+    padding: 3px;
+    margin: 5px;
+    /*use below to center
+    display: block;
+    margin: auto;*/
+}
+
+.imgcenter {
+    display: block;
+    margin: auto;
+}
+
+.rizz {
+    font-size: 44pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+    background-color: beige;
+    border: 4px dashed black;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+li {
+    text-decoration: overline;
+}
+
+li:hover {
+    text-decoration: underline;
+}
